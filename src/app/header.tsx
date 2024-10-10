@@ -83,28 +83,34 @@ const Header: React.FC = () => {
         <nav className="lg:hidden bg-white shadow-md">
           <div className="px-4 py-2 space-y-2">
             <a
-              href="/"
+              href="/#Hero"
               className="block text-gray-700 hover:text-pink-500 transition-colors duration-300"
               onClick={toggleMobileMenu}
             >
               Home
             </a>
             <a
-              href="/about"
+              href="/#TrendingProducts"
               className="block text-gray-700 hover:text-pink-500 transition-colors duration-300"
               onClick={toggleMobileMenu}
             >
-              About
+              TrendingProduct
             </a>
             <a
-              href="/shop"
+            href="/#NewArrivals"
+            className="text-gray-700 hover:text-pink-500 transition-colors duration-300"
+          >
+            NewArrivals
+          </a>
+            <a
+              href="/#Testimonials"
               className="block text-gray-700 hover:text-pink-500 transition-colors duration-300"
               onClick={toggleMobileMenu}
             >
-              Shop
+              Testimonials
             </a>
             <a
-              href="/contact"
+              href="/#contact"
               className="block text-gray-700 hover:text-pink-500 transition-colors duration-300"
               onClick={toggleMobileMenu}
             >
