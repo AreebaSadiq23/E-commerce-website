@@ -1,9 +1,11 @@
+"use client"; // Specify that this is a client component
+
 import React from "react";
 import Image from "next/image";
 
 const HeroSection: React.FC = () => {
   return (
-    <div className="relative flex flex-col md:flex-row items-center justify-center bg-gradient-to-r from-pink-400 to-pink-300 text-white py-20 px-6 md:px-10">
+    <div id="Hero" className="relative flex flex-col md:flex-row items-center justify-center bg-gradient-to-r from-pink-400 to-pink-300 text-white py-20 px-6 md:px-10">
       <div className="absolute inset-0 z-0 flex flex-col md:flex-row">
         <div className="relative w-full md:w-1/2 h-56 md:h-full">
           <Image
@@ -49,4 +51,4 @@ const HeroSection: React.FC = () => {
   );
 };
 
-export default HeroSection;
+export default HeroSection; // Use default export here

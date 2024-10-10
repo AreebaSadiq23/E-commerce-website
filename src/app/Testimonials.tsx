@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials: React.FC = () => {
   return (
-    <section className="py-12 bg-gray-100">
+    <section id="Testimonials" className="py-12 bg-gray-100">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
           What Our Customers Say

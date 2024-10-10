@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const NewArrivals: React.FC = () => {
   return (
-    <section className="py-16 relative bg-gradient-to-r from-cyan-200 to-cyan-300 overflow-hidden">
+    <section id="NewArrivals" className="py-16 relative bg-gradient-to-r from-cyan-200 to-cyan-300 overflow-hidden">
       {/* Background Shapes */}
       <div className="absolute inset-0">
         <div className="absolute -top-20 -left-20 w-64 h-64 rounded-full bg-yellow-300 opacity-40 animate-pulse"></div>

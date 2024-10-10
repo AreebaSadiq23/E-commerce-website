@@ -22,25 +22,31 @@ const Header: React.FC = () => {
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex space-x-8">
           <a
-            href="/"
+            href="/#Hero"
             className="text-gray-700 hover:text-pink-500 transition-colors duration-300"
           >
             Home
           </a>
           <a
-            href="/about"
+            href="/#TrendingProducts"
             className="text-gray-700 hover:text-pink-500 transition-colors duration-300"
           >
-            About
+            Trending Products
           </a>
           <a
-            href="/shop"
+            href="/#NewArrivals"
             className="text-gray-700 hover:text-pink-500 transition-colors duration-300"
           >
-            Shop
+            NewArrivals
           </a>
           <a
-            href="/contact"
+            href="/#Testimonials"
+            className="text-gray-700 hover:text-pink-500 transition-colors duration-300"
+          >
+            Testimonials
+          </a>
+          <a
+            href="/#contact"
             className="text-gray-700 hover:text-pink-500 transition-colors duration-300"
           >
             Contact
@@ -56,7 +62,7 @@ const Header: React.FC = () => {
             Register
           </button>
           <a
-            href="/cart"
+            href="/#NewArrivals"
             className="text-gray-700 hover:text-pink-500 transition-colors duration-300"
           >
             <FiShoppingCart size={24} />

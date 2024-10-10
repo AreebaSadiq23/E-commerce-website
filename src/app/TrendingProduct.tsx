@@ -66,7 +66,7 @@ const products: Product[] = [
 
 const TrendingProducts: React.FC = () => {
   return (
-    <section className="py-12 bg-gray-100">
+    <section id="TrendingProducts" className="py-12 bg-gray-100">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-6">
           Trending Products
